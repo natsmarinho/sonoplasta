@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --cinza: #aaa;
+    --vermelha: #e93d50;
+    --vermelha-escura: #af303f;
+    --branca: #fff;
+    --luz: rgb(229, 255, 0);
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    align-items: center;
+    background: #fdd8e0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    color: #c9216c;
+}
+
+.botoes{
+        background: #fff;
+        box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+        border-radius: 30px;
+        display: grid;
+        width: 75%;
+        height: 50rem;
+        grid-template-columns: repeat(2, 1fr);
+        padding-block: 1rem;
+        margin-bottom: 2rem;
+}
+
+.tecla {
+    background-color:#c9216c;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 var(--cinza);
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    font-size: .7rem;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+
+  .tecla.ativa,
+  .tecla:active{
+      background-color: rgb(44, 43, 43);
+  }
+
+  @media screen and (min-width: 700px){
+
+        h1{
+            font-size: 4rem;
+        }
+
+        .botoes{
+            height: 85rem;
+            width: 55%;
+        }
+
+      .tecla{
+          font-size: 2rem;
+          width: 80%;
+          height: 80px;
+          margin-bottom: 2rem;
+      }
+
+      .aburura{
+          font-size: 1.5rem;
+      }
+  }
