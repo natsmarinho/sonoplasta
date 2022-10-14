@@ -5,8 +5,6 @@
 
 - [Overview](#overview)
   - The challenge is to build out this interactive sound design's page component.
-  - 
-  - [Links](#links)
 - My process: It took me 5 days to build this.
   - Built with: HTML5, CSS3 and JAVASCRIPT.
   - What I learned: I've learned how to use display grid and how to manipulate DOM. And also I've learned more how to built a responsive page.
