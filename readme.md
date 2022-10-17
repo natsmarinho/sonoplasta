@@ -63,3 +63,19 @@ Users should be able to:
 ## Acknowledgments
 
 I would like to thank to syphazk [on youtube](https://www.youtube.com/channel/UC3VCZIy_8AAnR9cj1kzFfdQ) for making a file with the sounds avaliable. 
+
+# Nome do meu projeto
+
+Rápida descrição do objetivo de fazer esse projeto
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Quem quer ser o sonoplasta?**
+| :label: Tecnologias | javascript, html, css
+| :rocket: URL         | https://natsmarinho.github.io/sonoplasta/
+
+![](./src/imagens/screenshot-pc.png#vitrinedev)
+
+## Detalhes do projeto
+
+Projeto inspirado no aluraMid com os áudios do programa 'Vai dar namoro'.
